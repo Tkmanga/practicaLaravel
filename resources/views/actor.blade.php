@@ -1,0 +1,11 @@
+@extends('plantilla')
+@section('title')
+  Actor
+@endsection
+@section('estilo')
+  "/css/app.css"
+@endsection
+@section("main")
+  <h1>Actor:</h1>
+    <p>{{$Actor}}</p>
+@endsection
