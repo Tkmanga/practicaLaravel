@@ -57,9 +57,8 @@ Route::get('/detallesPelicula/{id}',function($id)
 });
 
 Route::get('/actores','ActorController@directory');
-Route::get('/actores/listado','ActorController@listado');
 Route::get('/actor/{id}','ActorController@show');
-
+Route::get('/actores/buscar/{texto}','ActorController@search');
 /*
 Buscador:
 
